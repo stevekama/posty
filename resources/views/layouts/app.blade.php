@@ -32,7 +32,7 @@
                 @auth
                     <li> 
                         <a href="#" class="p-3">
-                            Stephen Kamau
+                            {{ auth()->user()->name }}
                         </a> 
                     </li>
 
